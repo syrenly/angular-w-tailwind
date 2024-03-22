@@ -32,24 +32,21 @@ describe("AppComponent", (): void => {
 		it("case primary", (): void => {
 			const buttonSpy = spyOn(component, "onChangeAlertType");
 			const compiled = fixture.nativeElement as HTMLElement;
-			const buttons =
-				compiled.querySelectorAll<HTMLElement>(".my-button");
+			const buttons = compiled.querySelectorAll<HTMLElement>(".my-button");
 			buttons[0].click();
 			expect(buttonSpy).toHaveBeenCalledWith("primary");
 		});
 		it("case danger", (): void => {
 			const buttonSpy = spyOn(component, "onChangeAlertType");
 			const compiled = fixture.nativeElement as HTMLElement;
-			const buttons =
-				compiled.querySelectorAll<HTMLElement>(".my-button");
+			const buttons = compiled.querySelectorAll<HTMLElement>(".my-button");
 			buttons[1].click();
 			expect(buttonSpy).toHaveBeenCalledWith("danger");
 		});
 		it("case success", (): void => {
 			const buttonSpy = spyOn(component, "onChangeAlertType");
 			const compiled = fixture.nativeElement as HTMLElement;
-			const buttons =
-				compiled.querySelectorAll<HTMLElement>(".my-button");
+			const buttons = compiled.querySelectorAll<HTMLElement>(".my-button");
 			buttons[2].click();
 			expect(buttonSpy).toHaveBeenCalledWith("success");
 		});

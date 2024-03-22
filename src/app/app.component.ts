@@ -4,12 +4,7 @@ import { AlertApplyTailwindComponent } from "./alert/alert-apply-tailwind/alert-
 import { AlertClassTailwindComponent } from "./alert/alert-class-tailwind/alert-class-tailwind.component";
 import { AlertMediaQueriesTailwindComponent } from "./alert/alert-media-queries-tailwind/alert-media-queries-tailwind.component";
 import { AlertType, IAlertInfo } from "./alert/alert.types";
-import {
-	DANGER_ALERT,
-	DEFAULT_ALERT,
-	PRIMARY_ALERT,
-	SUCCESS_ALERT,
-} from "./alert/alert.utils";
+import { DANGER_ALERT, DEFAULT_ALERT, PRIMARY_ALERT, SUCCESS_ALERT } from "./alert/alert.utils";
 import { DaisyUIInputsComponent } from "./daisy-ui-inputs/daisy-ui-inputs.component";
 
 @Component({

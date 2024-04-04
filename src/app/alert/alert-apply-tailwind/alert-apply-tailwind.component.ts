@@ -15,8 +15,4 @@ import { AlertBase } from "../alert.base";
 export class AlertApplyTailwindComponent extends AlertBase {
 	/** Emits the request to return to the default alert */
 	@Output() resetRequested = new EventEmitter<void>();
-	/** Call resetRequested event emitter */
-	returnToDefault(): void {
-		this.resetRequested.emit();
-	}
 }

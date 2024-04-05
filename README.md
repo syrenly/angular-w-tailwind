@@ -24,6 +24,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+### Last code coverage
+
 Run `ng test --no-watch --code-coverage` to get stats about the code coverage. Current:
 
 ```

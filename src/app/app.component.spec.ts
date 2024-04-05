@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from "@angular/core/testing";
+import { DANGER_ALERT, DEFAULT_ALERT, PRIMARY_ALERT, SUCCESS_ALERT } from "./alert/alert.utils";
 import { AppComponent } from "./app.component";
 
 describe("AppComponent", (): void => {
@@ -28,7 +29,7 @@ describe("AppComponent", (): void => {
 		const buttons = compiled.querySelectorAll(".my-button");
 		expect(buttons.length).toBe(3);
 	});
-	describe("should test #onChangeAlertType ", (): void => {
+	describe("should test button to change alert type", (): void => {
 		it("case primary", (): void => {
 			const buttonSpy = spyOn(component, "onChangeAlertType");
 			const compiled = fixture.nativeElement as HTMLElement;
@@ -49,6 +50,24 @@ describe("AppComponent", (): void => {
 			const buttons = compiled.querySelectorAll<HTMLElement>(".my-button");
 			buttons[2].click();
 			expect(buttonSpy).toHaveBeenCalledWith("success");
+		});
+	});
+	describe("should test #onChangeAlertType", (): void => {
+		it("case primary", (): void => {
+			component.onChangeAlertType("primary");
+			expect(component.alert).toEqual(PRIMARY_ALERT);
+		});
+		it("case danger", (): void => {
+			component.onChangeAlertType("danger");
+			expect(component.alert).toEqual(DANGER_ALERT);
+		});
+		it("case success", (): void => {
+			component.onChangeAlertType("success");
+			expect(component.alert).toEqual(SUCCESS_ALERT);
+		});
+		it("case default", (): void => {
+			component.onChangeAlertType("default");
+			expect(component.alert).toEqual(DEFAULT_ALERT);
 		});
 	});
 });

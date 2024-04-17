@@ -24,6 +24,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+### Last code coverage
+
 Run `ng test --no-watch --code-coverage` to get stats about the code coverage. Current:
 
 ```
@@ -35,10 +37,12 @@ Lines        : 100% ( 25/25 )
 ================================================================================
 ```
 
-## Running end-to-end tests
+## Docker
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Install docker in your machine. From the root folder of this application, run
 
-## Further help
+`docker build -t angular-w-tailwind:latest .`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+It will need a couple of minutes to set up the container the first time. The following runs will be faster.
+
+Run `docker-compose up`

@@ -1,6 +1,6 @@
 # AngularWTailwind
 
-👋 Hi, I’m @syrenly and welcome to **angular-w-tailwind** repo!
+👋 Hi, I’m **syrenly** and welcome to **angular-w-tailwind** repo!
 
 This is a sample app that uses Tailwind and DaisyUI frameworks.
 
@@ -26,7 +26,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ### Last code coverage
 
-Run `ng test --no-watch --code-coverage` to get stats about the code coverage. Current:
+Run `npm run test:coverage` to get stats about the code coverage. Current:
 
 ```
 =============================== Coverage summary ===============================

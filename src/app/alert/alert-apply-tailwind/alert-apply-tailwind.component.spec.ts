@@ -4,7 +4,7 @@ import { By } from "@angular/platform-browser";
 import { PRIMARY_ALERT } from "../alert.utils";
 import { AlertApplyTailwindComponent } from "./alert-apply-tailwind.component";
 
-describe("AlertApplyTailwindComponent", () => {
+describe("AlertApplyTailwindComponent", (): void => {
 	let component: AlertApplyTailwindComponent;
 	let fixture: ComponentFixture<AlertApplyTailwindComponent>;
 

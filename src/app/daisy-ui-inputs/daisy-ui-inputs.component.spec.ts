@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from "@angular/core/testing";
 import { DaisyUIInputsComponent } from "./daisy-ui-inputs.component";
 
-describe("DaisyUIInputsComponent", () => {
+describe("DaisyUIInputsComponent", (): void => {
 	let component: DaisyUIInputsComponent;
 	let fixture: ComponentFixture<DaisyUIInputsComponent>;
 

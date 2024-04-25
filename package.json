@@ -2,7 +2,8 @@
 	"name": "angular-w-tailwind",
 	"version": "1.0.0",
 	"author": {
-		"name": "syrenly"
+		"name": "syrenly",
+		"email": "code.et.library@gmail.com"
 	},
 	"scripts": {
 		"ng": "ng",
@@ -13,8 +14,9 @@
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
 		"test:coverage": "ng test --no-watch --code-coverage",
-		"lint": "eslint .",
-		"lint:fix": "eslint . --fix"
+		"lint": "ng lint",
+		"eslint": "eslint .",
+		"eslint:fix": "eslint . --fix"
 	},
 	"private": true,
 	"dependencies": {
@@ -31,14 +33,14 @@
 		"zone.js": "~0.14.3"
 	},
 	"devDependencies": {
-		"@angular/cli": "^17.3.4",
-		"@angular/compiler-cli": "^17.3.0",
 		"@angular-devkit/build-angular": "^17.3.4",
 		"@angular-eslint/builder": "17.3.0",
 		"@angular-eslint/eslint-plugin-template": "17.3.0",
 		"@angular-eslint/eslint-plugin": "17.3.0",
 		"@angular-eslint/schematics": "17.3.0",
 		"@angular-eslint/template-parser": "17.3.0",
+		"@angular/cli": "^17.3.4",
+		"@angular/compiler-cli": "^17.3.0",
 		"@types/jasmine": "~5.1.0",
 		"@typescript-eslint/eslint-plugin": "7.2.0",
 		"@typescript-eslint/parser": "7.2.0",

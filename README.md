@@ -54,3 +54,7 @@ Install docker in your machine. From the root folder of this application, run
 It will need a couple of minutes to set up the container the first time. The following runs will be faster.
 
 Run `docker-compose up`
+
+## Branches
+
+-   [ng-17](https://github.com/syrenly/angular-w-tailwind/tree/ng-17) Implementation with Angular 17

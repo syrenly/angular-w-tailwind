@@ -4,7 +4,7 @@
 
 This is a sample app that uses Tailwind 3 and DaisyUI 4 frameworks.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2, currently updated to version 17.3.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2, currently updated to version 17.3.10.
 
 ⚗️ Unit tests implemented.
 

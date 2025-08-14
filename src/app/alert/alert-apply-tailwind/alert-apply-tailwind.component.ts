@@ -7,7 +7,6 @@ import { AlertBase } from "../alert.base";
  */
 @Component({
 	selector: "app-alert-apply-tailwind",
-	standalone: true,
 	imports: [NgClass],
 	templateUrl: "./alert-apply-tailwind.component.html",
 	styleUrl: "./alert-apply-tailwind.component.scss",

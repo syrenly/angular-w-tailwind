@@ -7,7 +7,6 @@ import { AlertBase } from "../alert.base";
  */
 @Component({
 	selector: "app-alert-media-queries-tailwind",
-	standalone: true,
 	imports: [NgClass],
 	templateUrl: "./alert-media-queries-tailwind.component.html",
 	styleUrl: "./alert-media-queries-tailwind.component.scss",
